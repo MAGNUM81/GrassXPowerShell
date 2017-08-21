@@ -1,8 +1,9 @@
-# this is a comment
+# Declaring a variable ... 
 
-<#
-    this
-    is a
-    comment
-    block
-#>
+$myvariable # Creates a variable.
+
+$myvariable = 42 # Assigns a value to it
+
+$grass = 32 # Creates a variable and assigns it a value
+
+$grass # Echoes the variable's value
