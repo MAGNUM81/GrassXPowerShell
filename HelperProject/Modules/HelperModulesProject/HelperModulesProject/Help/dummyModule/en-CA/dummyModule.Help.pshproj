@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<ModuleObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fVersion="1.1" type="Script" mclass="External" useSupports="false">
+  <Name>dummyModule</Name>
+  <Version>0.0</Version>
+  <Description />
+  <ModulePath>\\MAGNUM-P580\c$\Users\lenovo P580\Documents\PROG\GitRepositories\GrassXPowerShell\HelperProject\Modules\HelperModulesProject\HelperModulesProject\Modules\dummyModule.psm1</ModulePath>
+  <HasManifest>false</HasManifest>
+  <OverridePostCount>false</OverridePostCount>
+  <FetchPostCount xsi:nil="true" />
+  <Cmdlets>
+    <CmdletObject verb="" noun="">
+      <Name>Bar</Name>
+      <Syntax>
+        <string>Bar [[-doodoo] &lt;String[][]&gt;]</string>
+      </Syntax>
+      <GeneralHelp>
+        <Synopsis>jmhdgx</Synopsis>
+        <Description>jb,kvj</Description>
+        <Notes>,kjh</Notes>
+        <InputType>.ljkgq</InputType>
+        <InputUrl>lkh</InputUrl>
+        <InputTypeDescription />
+        <ReturnType />
+        <ReturnUrl />
+        <ReturnTypeDescription />
+      </GeneralHelp>
+      <ParamSets>
+        <CommandParameterSetInfo2 Name="__AllParameterSets" Params="doodoo" />
+      </ParamSets>
+      <Parameters>
+        <ParameterDescription type="String[][]" varLen="true" required="false" dynamic="false" pipeRemaining="false" pipe="false" pipeProp="false" isPos="true" pos="0" globbing="false">
+          <Name>doodoo</Name>
+          <Attributes>
+            <string>System.Management.Automation.ParameterAttribute</string>
+            <string>System.Management.Automation.ArgumentTypeConverterAttribute</string>
+          </Attributes>
+          <Aliases />
+          <Description>,iykjud</Description>
+          <DefaultValue>"ur mom"</DefaultValue>
+        </ParameterDescription>
+      </Parameters>
+      <Examples>
+        <Example>
+          <Name>ex1</Name>
+          <Cmd>,kufhchgdkhxg</Cmd>
+          <Description>.kjb.kjb.jhvc,hgc</Description>
+          <Output />
+        </Example>
+      </Examples>
+      <RelatedLinks />
+      <SupportInformation ad="false" rsat="false" ps2="false" ps3="false" ps4="false" ps5="false" wxp="false" wv="false" w7="false" w8="false" w81="false" w10="false" w2k3s="false" w2k3e="false" w2k3d="false" w2k8s="false" w2k8e="false" w2k8d="false" w2k8r2s="false" w2k8r2e="false" w2k8r2d="false" w2k12s="false" w2k12d="false" w2k12r2s="false" w2k12r2d="false" />
+      <Publish>false</Publish>
+    </CmdletObject>
+    <CmdletObject verb="" noun="">
+      <Name>dummyBlah</Name>
+      <Syntax>
+        <string>dummyBlah [[-dumdum] &lt;String[][]&gt;]</string>
+      </Syntax>
+      <GeneralHelp>
+        <Synopsis />
+        <Description />
+        <Notes />
+        <InputType />
+        <InputUrl />
+        <InputTypeDescription />
+        <ReturnType />
+        <ReturnUrl />
+        <ReturnTypeDescription />
+      </GeneralHelp>
+      <ParamSets>
+        <CommandParameterSetInfo2 Name="__AllParameterSets" Params="dumdum" />
+      </ParamSets>
+      <Parameters>
+        <ParameterDescription type="String[][]" varLen="true" required="false" dynamic="false" pipeRemaining="false" pipe="false" pipeProp="false" isPos="true" pos="0" globbing="false">
+          <Name>dumdum</Name>
+          <Attributes>
+            <string>System.Management.Automation.ParameterAttribute</string>
+            <string>System.Management.Automation.ArgumentTypeConverterAttribute</string>
+          </Attributes>
+          <Aliases />
+          <Description />
+          <DefaultValue />
+        </ParameterDescription>
+      </Parameters>
+      <Examples />
+      <RelatedLinks />
+      <SupportInformation ad="false" rsat="false" ps2="false" ps3="false" ps4="false" ps5="false" wxp="false" wv="false" w7="false" w8="false" w81="false" w10="false" w2k3s="false" w2k3e="false" w2k3d="false" w2k8s="false" w2k8e="false" w2k8d="false" w2k8r2s="false" w2k8r2e="false" w2k8r2d="false" w2k12s="false" w2k12d="false" w2k12r2s="false" w2k12r2d="false" />
+      <Publish>false</Publish>
+    </CmdletObject>
+    <CmdletObject verb="" noun="">
+      <Name>Foo</Name>
+      <Syntax>
+        <string>Foo [[-sheikah] &lt;String[][]&gt;]</string>
+      </Syntax>
+      <GeneralHelp>
+        <Synopsis />
+        <Description />
+        <Notes />
+        <InputType />
+        <InputUrl />
+        <InputTypeDescription />
+        <ReturnType />
+        <ReturnUrl />
+        <ReturnTypeDescription />
+      </GeneralHelp>
+      <ParamSets>
+        <CommandParameterSetInfo2 Name="__AllParameterSets" Params="sheikah" />
+      </ParamSets>
+      <Parameters>
+        <ParameterDescription type="String[][]" varLen="true" required="false" dynamic="false" pipeRemaining="false" pipe="false" pipeProp="false" isPos="true" pos="0" globbing="false">
+          <Name>sheikah</Name>
+          <Attributes>
+            <string>System.Management.Automation.ParameterAttribute</string>
+            <string>System.Management.Automation.ArgumentTypeConverterAttribute</string>
+          </Attributes>
+          <Aliases />
+          <Description />
+          <DefaultValue />
+        </ParameterDescription>
+      </Parameters>
+      <Examples />
+      <RelatedLinks />
+      <SupportInformation ad="false" rsat="false" ps2="false" ps3="false" ps4="false" ps5="false" wxp="false" wv="false" w7="false" w8="false" w81="false" w10="false" w2k3s="false" w2k3e="false" w2k3d="false" w2k8s="false" w2k8e="false" w2k8d="false" w2k8r2s="false" w2k8r2e="false" w2k8r2d="false" w2k12s="false" w2k12d="false" w2k12r2s="false" w2k12r2d="false" />
+      <Publish>false</Publish>
+    </CmdletObject>
+  </Cmdlets>
+</ModuleObject>
