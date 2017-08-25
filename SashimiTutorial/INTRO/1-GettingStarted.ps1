@@ -1,36 +1,42 @@
 #Basic expressions
 
-# 1. "if" statement and logical operators
+#2. Different types of loops
 
-$someBoolean = $true      # Reserved variable name : true
+#2.1 the for-loop
 
-if($someBoolean){         # "if" statement
-    $someBoolean = $false # Reserved variable name : false
-}
-else
+for($i=0;$i -lt 34; $i++)
 {
-    echo "someBoolean is false" 
+    echo "this will be executed 34 times" 
 }
 
-$someInteger = 45
+# increment operator : ++ , can be placed before or after a variable
+    # if placed after, will return the value of $i, then increment it by one
+    # if placed before, will increment $i, then return the resulting value
+    # ***Does not affect for-loop's behavior
 
-if($someInteger -eq 45)  # logical operator "equal to"
-<# 
-An arbitrary amount of "blank space" characters 
-can be put between ')' and '{', as well as comments
-#>
+#2.2 the while loop
 
+$someBoolean = $false
+while($someBoolean -eq $false){
+    echo "This will be executed as long as `$someBoolean is false" #NOTE : escape character in string : '`'
+}
 
+$i = 4
+while($i -ge 0){
+    echo "This will be executed as long as `$i is greater than 0"
+}
+
+#2.3 foreach
+
+foreach($i in 1..4)
 {
-    $someInteger = 0
-}
-elseif($someInteger -gt 23){ # elseif block : "else" and "if" identifiers must be bound together
-    echo "someInteger is not equal to 45 and is greater than 23"
+    echo "this will be executed for each element `$i of array (1, 2, 3, 4)"
+    echo $i
 }
 
-if(($someInteger -lt 41) -and $someBoolean) #chained logical expressions : priority established by parenthesis
+$arrayOfStrings = @("blah", "foo", "bar")
+
+foreach($s in $arrayOfStrings)
 {
-    echo "someInteger is lesser than 41 and someBoolean is true"
+    echo $s
 }
-
-#See a list of all logical operators and their syntax here : https://ss64.com/ps/syntax-compare.html
